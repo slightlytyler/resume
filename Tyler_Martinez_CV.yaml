@@ -1,0 +1,244 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/rendercv/rendercv/refs/tags/v2.8/schema.json
+cv:
+  name: Tyler Martinez
+  headline: Frontend Infrastructure Engineer
+  location: San Diego, CA
+  email: slightlytyler@gmail.com
+  photo:
+  phone:
+  website:
+  social_networks:
+  custom_connections:
+  sections:
+    summary:
+      - "Frontend infrastructure engineer with over a decade of experience, including 5+ years owning foundational systems at Coinbase. Track record of making high leverage architectural calls under ambiguity, scaling systems from inception to company wide standard, and multiplying team output through mentorship, documentation, and hiring."
+    experience:
+      - company: Coinbase
+        position: "Senior Engineer, Data Layer, Frontend Platform"
+        start_date: 2021
+        end_date: 2026
+        location:
+        summary: "Joined as the team's first external hire and grew into the primary technical driver of Coinbase's GraphQL platform, the system powering 95% of UI surfaces, 65% of edge traffic, and used daily by 700+ engineers company-wide."
+        highlights:
+          - "Owned the architecture of Coinbase's live data systems, including the foundational decision to standardize GraphQL subscriptions on HTTP rather than WebSockets, now the long-term standard, overcoming early skepticism about HTTP/2's ability to scale. WebSockets used in other parts of the system remained a persistent source of instability by comparison."
+          - "Designed and owned the data-layer frontend library, a bespoke networking/caching stack built on Relay, adopted as the standard networking foundation across Coinbase's apps."
+          - "Acted as the company-wide technical resource for frontend networking, caching, and protocols, regularly consulted by product teams, and authored documentation that became the primary onboarding resource for GraphQL company-wide."
+          - "Enabled the team's AI tooling initiatives including an MCP server for GraphQL service deployment and debugging, an automated PR reviewer, and an agent for authoring GraphQL schemas and resolvers."
+          - "Mentored engineers through design/PR review and hands-on debugging, wrote roadmap docs that shaped multiple quarters of team execution, and helped build the team's hiring pipeline."
+          - "Drove resiliency and performance initiatives as a key incident responder across 100+ production incidents, frequently the point person for networking-layer root cause analysis."
+      - company: Mapistry
+        position: "Senior Engineer, Environmental Compliance"
+        start_date: 2020
+        end_date: 2021
+        location:
+        summary:
+        highlights:
+          - "Lead frontend engineer; developed a shared UI design system and networking layer for flagship mobile and web apps."
+          - "Built out CI systems, observability, and dev guardrails from square one, greatly increasing dev velocity and operational confidence."
+      - company: Airbnb
+        position: "Software Engineer, Regulatory Platform"
+        start_date: 2019
+        end_date: 2020
+        location:
+        summary: "Member of the Cities team, responsible for regulatory compliance across host markets. Built product features and ran communication campaigns to alert hosts to new regulations and guide them toward compliance."
+        highlights:
+          - "Developed radical new processes for launching regulations through custom internal tools rather than manual configuration, saving hundreds of engineering hours each quarter and reducing the rate of incidents caused by misconfiguration."
+          - "Launched regulations and ran communication campaigns in critical markets including Los Angeles and Miami."
+      - company: Docker
+        position: "Software Engineer, Enterprise Team"
+        start_date: 2017
+        end_date: 2019
+        location:
+        summary: "Contributed to Docker's enterprise products and company-wide libraries, including the shared testing library and design system."
+        highlights:
+          - "Frontend lead of Docker Trusted Registry; built out GraphQL networking layer and CI infrastructure."
+          - "Built testing systems which led to a >50% reduction in bug reports and a vast reduction in engineering hours spent manually QAing."
+      - company: IBM
+        position: "Software Engineer, Watson Health"
+        start_date: 2015
+        end_date: 2017
+        location:
+        summary:
+        highlights:
+      - company: Freelance
+        position: Web Developer
+        start_date: 2013
+        end_date: 2015
+        location:
+        summary:
+        highlights:
+design:
+  theme: harvard
+  page:
+    size: us-letter
+    top_margin: 0.45in
+    bottom_margin: 0.45in
+    left_margin: 0.6in
+    right_margin: 0.6in
+    show_footer: false
+    show_top_note: false
+  colors:
+    body: rgb(0, 0, 0)
+    name: rgb(0, 0, 0)
+    headline: rgb(0, 0, 0)
+    connections: rgb(0, 0, 0)
+    section_titles: rgb(0, 0, 0)
+    links: rgb(0, 0, 0)
+    footer: rgb(128, 128, 128)
+    top_note: rgb(128, 128, 128)
+  typography:
+    line_spacing: 0.55em
+    alignment: justified
+    date_and_location_column_alignment: right
+    font_family:
+      body: XCharter
+      name: XCharter
+      headline: XCharter
+      connections: XCharter
+      section_titles: XCharter
+    font_size:
+      body: 10pt
+      name: 24pt
+      headline: 10pt
+      connections: 9pt
+      section_titles: 1.2em
+  links:
+    underline: false
+    show_external_link_icon: false
+  header:
+    alignment: center
+    photo_width: 3.5cm
+    photo_position: left
+    photo_space_left: 0.4cm
+    photo_space_right: 0.4cm
+    space_below_name: 0.35cm
+    space_below_headline: 0.35cm
+    space_below_connections: 0.35cm
+    connections:
+      phone_number_format: national
+      hyperlink: true
+      show_icons: false
+      display_urls_instead_of_usernames: false
+      separator: •
+      space_between_connections: 0.4cm
+  section_titles:
+    type: centered_with_centered_partial_line
+    line_thickness: 0.5pt
+    space_above: 0.55cm
+    space_below: 0.15cm
+  sections:
+    allow_page_break: true
+    space_between_regular_entries: 1.2em
+    space_between_text_based_entries: 0.3em
+    show_time_spans_in: []
+  entries:
+    date_and_location_width: 4.15cm
+    side_space: 0.2cm
+    space_between_columns: 0.1cm
+    allow_page_break: false
+    short_second_row: false
+    degree_width: 1cm
+    summary:
+      space_above: 0.25cm
+      space_left: 0cm
+    highlights:
+      bullet: •
+      nested_bullet: •
+      space_left: 0.15cm
+      space_above: 0.15cm
+      space_between_items: 0cm
+      space_between_bullet_and_text: 0.5em
+  # templates:
+  #   footer: '*NAME -- PAGE_NUMBER/TOTAL_PAGES*'
+  #   top_note: '*LAST_UPDATED CURRENT_DATE*'
+  #   single_date: MONTH_ABBREVIATION YEAR
+  #   date_range: START_DATE – END_DATE
+  #   time_span: HOW_MANY_YEARS YEARS HOW_MANY_MONTHS MONTHS
+  #   one_line_entry:
+  #     main_column: '**LABEL:** DETAILS'
+  #   education_entry:
+  #     main_column: |-
+  #       **INSTITUTION**, AREA
+  #       SUMMARY
+  #       HIGHLIGHTS
+  #     degree_column: '**DEGREE**'
+  #     date_and_location_column: |-
+  #       LOCATION
+  #       DATE
+  #   normal_entry:
+  #     main_column: |-
+  #       **NAME**
+  #       SUMMARY
+  #       HIGHLIGHTS
+  #     date_and_location_column: |-
+  #       LOCATION
+  #       DATE
+  #   experience_entry:
+  #     main_column: |-
+  #       **COMPANY**, POSITION
+  #       SUMMARY
+  #       HIGHLIGHTS
+  #     date_and_location_column: |-
+  #       LOCATION
+  #       DATE
+  #   publication_entry:
+  #     main_column: |-
+  #       **TITLE**
+  #       SUMMARY
+  #       AUTHORS
+  #       URL (JOURNAL)
+  #     date_and_location_column: DATE
+locale:
+  language: english
+  # last_updated: Last updated in
+  # month: month
+  # months: months
+  # year: year
+  # years: years
+  # present: present
+  # phrases:
+  #   degree_with_area: DEGREE in AREA
+  # month_abbreviations:
+  #   - Jan
+  #   - Feb
+  #   - Mar
+  #   - Apr
+  #   - May
+  #   - June
+  #   - July
+  #   - Aug
+  #   - Sept
+  #   - Oct
+  #   - Nov
+  #   - Dec
+  # month_names:
+  #   - January
+  #   - February
+  #   - March
+  #   - April
+  #   - May
+  #   - June
+  #   - July
+  #   - August
+  #   - September
+  #   - October
+  #   - November
+  #   - December
+settings:
+  current_date: today
+  render_command:
+    output_folder: rendercv_output
+    design:
+    locale:
+    typst_path: OUTPUT_FOLDER/NAME_IN_SNAKE_CASE_CV.typ
+    pdf_path: OUTPUT_FOLDER/NAME_IN_SNAKE_CASE_CV.pdf
+    markdown_path: OUTPUT_FOLDER/NAME_IN_SNAKE_CASE_CV.md
+    html_path: OUTPUT_FOLDER/NAME_IN_SNAKE_CASE_CV.html
+    png_path: OUTPUT_FOLDER/NAME_IN_SNAKE_CASE_CV.png
+    dont_generate_markdown: false
+    dont_generate_html: false
+    dont_generate_typst: false
+    dont_generate_pdf: false
+    dont_generate_png: false
+  bold_keywords: []
+  pdf_title: NAME - CV
