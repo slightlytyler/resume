@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Tyler Martinez — Résumé</title>
+<meta name="description" content="Résumé of Tyler Martinez, Frontend Infrastructure Engineer.">
+<link rel="icon" href="data:,">
+<style>
+  :root{
+    color-scheme: light;
+    --bg: #f4f5f7;
+    --panel: #ffffff;
+    --text: #1c1c1c;
+    --muted: #666;
+    --accent: #0b5fff;
+    --border: #e1e3e8;
+  }
+  *{box-sizing:border-box;}
+  body{
+    margin:0;
+    background:var(--bg);
+    color:var(--text);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    min-height:100vh;
+    display:flex;
+    flex-direction:column;
+  }
+  header{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:1rem;
+    flex-wrap:wrap;
+    padding:0.9rem 1.25rem;
+    background:var(--panel);
+    border-bottom:1px solid var(--border);
+  }
+  header h1{
+    font-size:1.05rem;
+    margin:0;
+    font-weight:600;
+  }
+  header p{
+    margin:0.15rem 0 0;
+    font-size:0.85rem;
+    color:var(--muted);
+  }
+  .actions{
+    display:flex;
+    gap:0.5rem;
+  }
+  .btn{
+    display:inline-flex;
+    align-items:center;
+    gap:0.4rem;
+    padding:0.5rem 0.9rem;
+    border-radius:6px;
+    font-size:0.85rem;
+    font-weight:600;
+    text-decoration:none;
+    border:1px solid var(--border);
+    color:var(--text);
+    background:var(--panel);
+  }
+  .btn.primary{
+    background:var(--accent);
+    border-color:var(--accent);
+    color:#fff;
+  }
+  main{
+    flex:1;
+    display:flex;
+    padding:1.25rem;
+    padding-top: calc(1.25rem + env(safe-area-inset-top, 0px));
+  }
+  .viewer{
+    flex:1;
+    background:var(--panel);
+    border:1px solid var(--border);
+    border-radius:10px;
+    overflow:hidden;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.06);
+  }
+  .viewer object{
+    width:100%;
+    height:100%;
+    display:block;
+    border:0;
+  }
+  noscript{display:block;}
+  .fallback{
+    display:none;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    text-align:center;
+    gap:1rem;
+    padding:2rem;
+    width:100%;
+  }
+  .fallback img{
+    max-width:100%;
+    border:1px solid var(--border);
+    border-radius:8px;
+  }
+  @media (max-width: 640px){
+    .viewer{display:none;}
+    .fallback{display:flex;}
+  }
+</style>
+</head>
+<body>
+  <header>
+    <div>
+      <h1>Tyler Martinez</h1>
+      <p>Frontend Infrastructure Engineer — San Diego, CA</p>
+    </div>
+    <div class="actions">
+      <a class="btn" href="mailto:slightlytyler@gmail.com">Email</a>
+      <a class="btn primary" href="Tyler_Martinez_CV.pdf" download>Download PDF</a>
+    </div>
+  </header>
+  <main>
+    <div class="viewer">
+      <object data="Tyler_Martinez_CV.pdf" type="application/pdf">
+        <p style="padding:1rem;">PDF preview isn't available in this browser. <a href="Tyler_Martinez_CV.pdf">Download the résumé PDF</a> instead.</p>
+      </object>
+    </div>
+    <div class="fallback">
+      <img src="Tyler_Martinez_CV_1.png" alt="Tyler Martinez résumé preview">
+      <a class="btn primary" href="Tyler_Martinez_CV.pdf" download>Download PDF</a>
+    </div>
+  </main>
+</body>
+</html>
