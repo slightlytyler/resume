@@ -22,8 +22,10 @@ Rendered output is written to [`docs/`](docs/), which is also the folder GitHub 
 Install RenderCV (requires Python):
 
 ```bash
-uv tool install "rendercv[full]"
+pip3 install "rendercv[full]"
 ```
+
+(RenderCV's docs suggest `uv tool install "rendercv[full]"` if you have [uv](https://docs.astral.sh/uv/) — `pip3` is the more broadly available option.)
 
 Render:
 
