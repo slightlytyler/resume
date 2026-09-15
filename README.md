@@ -2,7 +2,7 @@
 
 Source for my résumé, built with [RenderCV](https://rendercv.com) and published with GitHub Pages.
 
-**Live site:** https://slightlytyler.github.io/resume/
+**Live site:** https://slightlytyler.github.io
 
 ## How it works
 
