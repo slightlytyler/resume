@@ -14,7 +14,7 @@ Frontend infrastructure engineer with over a decade of experience, including 5+ 
 
 Joined as the team's first external hire and grew into the primary technical driver of Coinbase's GraphQL platform, the system powering 95% of UI surfaces, 65% of edge traffic, and used daily by 700+ engineers company-wide.
 
-- Owned the architecture of Coinbase's live data systems, including the foundational decision to standardize on HTTP streams rather than WebSockets, now the long-term standard, overcoming early skepticism about HTTP/2's ability to scale. WebSockets used in other parts of the system remained a persistent source of instability by comparison.
+- Owned the architecture of Coinbase's GraphQL live data systems, including the foundational decision to standardize GraphQL on HTTP streams rather than WebSockets, now the long-term standard, overcoming early skepticism about HTTP/2's ability to scale. WebSockets used in other parts of the system remained a persistent source of instability by comparison.
 
 - Designed and owned the data-layer frontend library, a bespoke networking/caching stack built on Relay, adopted as the standard networking foundation across Coinbase's apps.
 
