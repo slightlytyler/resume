@@ -54,7 +54,7 @@ cv:
           - "Frontend lead of Docker Trusted Registry; built out GraphQL networking layer and CI infrastructure."
           - "Built testing systems which led to a >50% reduction in bug reports and a vast reduction in engineering hours spent manually QAing."
       - company: IBM
-        position: "Software Engineer, Watson Health"
+        position: "UI Engineer, Watson Health"
         start_date: 2015
         end_date: 2017
         location:

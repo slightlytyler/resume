@@ -186,7 +186,7 @@ Frontend infrastructure engineer with over a decade of experience, including 5+ 
 
 #regular-entry(
   [
-    #strong[IBM], Software Engineer, Watson Health
+    #strong[IBM], UI Engineer, Watson Health
 
   ],
   [

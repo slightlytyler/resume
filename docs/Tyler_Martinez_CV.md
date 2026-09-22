@@ -62,7 +62,7 @@ Contributed to Docker's enterprise products and company-wide libraries, includin
 
 
 
-## **IBM**, Software Engineer, Watson Health
+## **IBM**, UI Engineer, Watson Health
 
 2015 – 2017
 
