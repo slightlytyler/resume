@@ -131,7 +131,7 @@ Frontend infrastructure engineer with over a decade of experience, including 5+ 
 
 #regular-entry(
   [
-    #strong[Mapistry], Senior Engineer, Environmental Compliance
+    #strong[Mapistry], Senior Engineer
 
   ],
   [

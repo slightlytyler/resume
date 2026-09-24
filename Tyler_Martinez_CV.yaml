@@ -27,7 +27,7 @@ cv:
           - "Mentored engineers through design/PR review and hands-on debugging, wrote roadmap docs that shaped multiple quarters of team execution, and helped build the team's hiring pipeline."
           - "Drove resiliency and performance initiatives as a key incident responder across 100+ production incidents, frequently the point person for networking-layer root cause analysis."
       - company: Mapistry
-        position: "Senior Engineer, Environmental Compliance"
+        position: "Senior Engineer"
         start_date: 2020
         end_date: 2021
         location:

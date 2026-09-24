@@ -28,7 +28,7 @@ Joined as the team's first external hire and grew into the primary technical dri
 
 
 
-## **Mapistry**, Senior Engineer, Environmental Compliance
+## **Mapistry**, Senior Engineer
 
 2020 – 2021
 
