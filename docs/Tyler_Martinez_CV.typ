@@ -60,7 +60,7 @@
   section-titles-type: "centered_with_centered_partial_line",
   section-titles-line-thickness: 0.5pt,
   section-titles-space-above: 0.55cm,
-  section-titles-space-below: 0.15cm,
+  section-titles-space-below: 0.35cm,
   sections-allow-page-break: true,
   sections-space-between-text-based-entries: 0.3em,
   sections-space-between-regular-entries: 1.2em,
@@ -81,7 +81,7 @@
   date: datetime(
     year: 2026,
     month: 9,
-    day: 22,
+    day: 23,
   ),
 )
 

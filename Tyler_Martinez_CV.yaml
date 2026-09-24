@@ -125,7 +125,7 @@ design:
     type: centered_with_centered_partial_line
     line_thickness: 0.5pt
     space_above: 0.55cm
-    space_below: 0.15cm
+    space_below: 0.35cm
   sections:
     allow_page_break: true
     space_between_regular_entries: 1.2em
