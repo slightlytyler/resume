@@ -8,7 +8,7 @@
 Frontend infrastructure engineer with over a decade of experience, including 5+ years owning foundational systems at Coinbase. Track record of making high leverage architectural calls under ambiguity, scaling systems from inception to company wide standard, and multiplying team output through mentorship, documentation, and hiring.
 
 # Experience
-## **Coinbase**, Senior Engineer, Data Layer, Infra
+## **Coinbase**, Senior Engineer, Infrastructure, Data Layer
 
 2021 – 2026
 

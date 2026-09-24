@@ -104,7 +104,7 @@ Frontend infrastructure engineer with over a decade of experience, including 5+ 
 
 #regular-entry(
   [
-    #strong[Coinbase], Senior Engineer, Data Layer, Infra
+    #strong[Coinbase], Senior Engineer, Infrastructure, Data Layer
 
   ],
   [
