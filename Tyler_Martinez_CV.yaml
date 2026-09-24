@@ -14,7 +14,7 @@ cv:
       - "Frontend infrastructure engineer with over a decade of experience, including 5+ years owning foundational systems at Coinbase. Track record of making high leverage architectural calls under ambiguity, scaling systems from inception to company wide standard, and multiplying team output through mentorship, documentation, and hiring."
     experience:
       - company: Coinbase
-        position: "Senior Engineer, Data Layer, Frontend Platform"
+        position: "Senior Engineer, Data Layer, Infra"
         start_date: 2021
         end_date: 2026
         location:
